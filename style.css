@@ -36,3 +36,8 @@ background-size: 20px 20px;
 .car input{
     border-radius: 30px;
 }
+.car .btn {
+    position:absolute;
+    left: 50%;
+
+}

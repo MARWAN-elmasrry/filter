@@ -14,8 +14,9 @@ background-size: 20px 20px;
     /* =========== */
     font-family: sans-serif;
 }
-.d1{
-    z-index: 3;
+h1{
+    text-align: center;
+    z-index: 2;
     color: aliceblue;
 }
 .header h1{
@@ -38,9 +39,17 @@ background-size: 20px 20px;
     color: antiquewhite;
 }
 .car input{
+    width: 250px;
+    height: 20px;
     border-radius: 30px;
+    font-size: 20px;
 }
-.car .btn {
-    position:absolute;
-    left: 50%;
+.car button{
+    position: absolute;
+    border-radius: 30px;
+    height: 30px;
+    width: 65px;
+    font-size: 20px;
+    background-color: #131313;
+    color: aliceblue;
 }

@@ -13,12 +13,29 @@
             <h1>Filter</h1>
         </div>
     </div>
-    <div class="car">
-        <div class="container">
-            <h2>what is the car</h2>
-            <input type="search">
-            <button onclick="window.location.href='./html/test.html';">filter it</button>
+    <form id="form">
+        <div>
+            <label for="car"> what is the car</label>
+            <input id="car" type="text">
         </div>
-    </div>
+        <div>
+            <button type="submit">Filter</button>
+        </div>
+    </form>
+
+    <script>
+            const form = document.getElementById('form');
+            const car = document.getElementById('car');
+
+            form.addEventListener('submit' , function(e) {
+                e.preventDefault();
+
+                const carValue = car.value;
+
+                localStorage.setItem('car',carValue);
+
+                window.location.href="./html/test.html";
+            })
+    </script>
 </body>
 </html>

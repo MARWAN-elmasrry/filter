@@ -16,7 +16,7 @@
     <form id="form" class="car">
         <div>
             <h1>what is your car</h1>
-            <input id="car" type="text">
+            <input id="car1" type="text">
         </div>
         <div>
             <button type="submit">Filter</button>
@@ -25,14 +25,14 @@
 
     <script>
             const form = document.getElementById('form');
-            const car = document.getElementById('car');
+            const car1 = document.getElementById('car1');
 
             form.addEventListener('submit' , function(e) {
                 e.preventDefault();
 
-                const carValue = car.value;
+                const car1Value = car1.value;
 
-                localStorage.setItem('car',carValue);
+                localStorage.setItem('car1',car1Value);
 
                 window.location.href="./html/test.html";
             })

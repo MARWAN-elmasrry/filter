@@ -123,3 +123,13 @@ h1{
     background-color: #131313;
     color: aliceblue;
 }
+.foot{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    justify-items: center;
+}
+.foot h4{
+    color: antiquewhite;
+    font-size: 25px;
+}

@@ -63,19 +63,9 @@ h1{
     grid-gap: 60px;
     margin-top: 30px;
     margin-bottom: 30px;
-<<<<<<< HEAD
     justify-items: center;
     text-align: center;
     }
-=======
-<<<<<<< HEAD
-    justify-items: center;
-    text-align: center;
-    }
-=======
-}
->>>>>>> 3b9b630192861e800f0f29c26039e70aba14fa11
->>>>>>> 2765c75c4f3677784b03190eee679d448756b825
 .car-info p{
     color: aqua;
     font-size: 15px;

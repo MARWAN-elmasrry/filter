@@ -114,6 +114,20 @@ h1{
     color: #ff0000;
     margin-left: 50px;
     margin-right: 50px;
+    transition: 0.3s;
+}
+.car-info .maps:hover{
+    h2{
+        transform: rotate(14deg);
+    }
+}
+
+.car-info .maps p{
+    bottom: -13px;
+    margin: 0;
+    position: relative;
+    font-size: 18px;
+    background-color: #ff0000;
 }
 .car{
     justify-content: center;
